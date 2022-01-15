@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Pestaña -->
+    <title>MalabarPub</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <!-- <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css"> -->
+    <!-- Icons -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" /> -->
+    <!-- Bootstrap 5 -->
+    <!-- <link rel="stylesheet" type="text/css" href="libs/bootstrap/bootstrap.min.css" /> -->
+    <!-- My Styles -->
+    <!-- <link rel="stylesheet" type="text/css" href="styles.css" /> -->
+  <link href="main.css" rel="stylesheet"></head>
+
+  <body>
+    <!-- Header -->
+    <header></header>
+
+    <!-- Container Component-->
+    <main></main>
+    <!-- Folder -->
+    <folder></folder>
+
+    <!-- Bottom Bar -->
+    <section id="bottomNav"></section>
+
+    <!-- efecto envolvente -->
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="filter-svg">
+      <defs>
+        <filter id="goo">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+          <feColorMatrix
+            in="blur"
+            mode="matrix"
+            values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+            result="goo"
+          />
+          <feBlend in="SourceGraphic" in2="goo" />
+        </filter>
+      </defs>
+    </svg>
+
+    <!-- Libs Files JavaScript -->
+    <!-- <script src="libs/bootstrap/bootstrap.min.js"></script> -->
+    <!-- <script src="libs/jquery/jquery-3.6.0.js"></script> -->
+    <!-- <script src="libs/ajax/ajax-utils.js"></script> -->
+
+    <!-- Main Files JavaScript -->
+    <!-- <script type="module" src="js/index.js"></script> -->
+  <script type="text/javascript" src="main.js"></script></body>
+</html>
