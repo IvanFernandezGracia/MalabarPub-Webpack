@@ -1,0 +1,37 @@
+{
+  "data": [
+    {
+      "name": "Super Pepperoni",
+      "descriptionsShort": "Extra queso mozzarella, doble pepperoni.",
+      "descriptions": "La pizza pepperoni tiene su origen en América del Norte. Se trata de una pizza con base de salsa de tomate, mozzarella y pepperoni, un tipo de salami curado hecho a base de carne de cerdo y de vaca mezclados y sazonados con pimentón.",
+      "price": 19990,
+      "stock": 24,
+      "mainCategory": "comida",
+      "category": "pizza",
+      "profilePicture": "11asdfasfsadfasfsadfadsfadsfadsf",
+      "otherPicture": ["22adfasdfdsafdasfads", "33asdfasdfdsafdsafdsafdsaf"]
+    },
+    {
+      "name": "Hawaiana",
+      "descriptionsShort": "Extra piña, doble jamon.",
+      "descriptions": "La pizza Hawaiana tiene su origen en la India. Se trata de una pizza con base de salsa de tomate, mozzarella y pepperoni, un tipo de salami curado hecho a base de carne de cerdo y de vaca mezclados y sazonados con pimentón.",
+      "price": 4500,
+      "stock": 5,
+      "mainCategory": "comida",
+      "category": "pizza",
+      "profilePicture": "11asdfasfsadfasfsadfadsfadsfadsf",
+      "otherPicture": ["22adfasdfdsafdasfads", "33asdfasdfdsafdsafdsafdsaf"]
+    },
+    {
+      "name": "Italiana",
+      "descriptionsShort": "Extra tomate, oregano y anchoas",
+      "descriptions": "La pizza Italiana tiene su origen en Italia. Se trata de una pizza con base de salsa de tomate, mozzarella y pepperoni, un tipo de salami curado hecho a base de carne de cerdo y de vaca mezclados y sazonados con pimentón.",
+      "price": 1000,
+      "stock": 100,
+      "mainCategory": "comida",
+      "category": "pizza",
+      "profilePicture": "11asdfasfsadfasfsadfadsfadsfadsf",
+      "otherPicture": ["22adfasdfdsafdasfads", "33asdfasdfdsafdsafdsafdsaf"]
+    }
+  ]
+}

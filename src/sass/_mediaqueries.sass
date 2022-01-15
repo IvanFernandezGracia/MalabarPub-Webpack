@@ -1,0 +1,90 @@
+
+@media screen and (min-width: 1500px)
+    .project
+        &:hover
+            transform: scale(1.35)
+            background-color: rgb(0, 0, 0)
+            .contenedor-projectos
+                background-color: rgb(0, 0, 0)
+                .encabezado
+                    background-color: rgb(0, 0, 0)
+                    .info
+                        .extracto
+                            color: rgba(255, 255, 255, 1)
+                .enlaces-github
+                    background-color: rgb(0, 0, 0)
+                    margin: 0px 0px 0px 0px
+                    a
+                        &:hover
+                            .fa-github
+                                color: #ffffff
+
+@media screen and (max-width: 1500px)
+    .project
+        .enlaces-github
+            a
+                &:hover
+                    .fa-github
+                        color: #000000
+
+@media screen and (max-width: 1015px)
+    .main
+        .logo-header
+            .contenedor
+                .texto
+                    .titulo
+                        font-size: 2.5rem
+                        margin-bottom: 0.5rem
+                        line-height: 2.5rem
+                    .profesion
+                        font-size: 1.5rem
+        .contenedor
+            .list-project
+                flex-direction: column
+                align-content: center
+                .project
+                    width: 100%
+                    margin-bottom: 1.5em
+
+@media screen and (max-width: 800px)
+    header
+        .menu
+            text-align: center
+
+    .main
+        .logo-header
+            .foto
+                margin-top: -23rem
+                img
+                    width: 50%
+            .texto
+                text-align: center
+                background-color: rgba(0, 0, 0, 0.5)
+                border-radius: 0.8em
+                padding: 0.7em
+                border-color: rgba(255, 255, 255, 1)
+                border-width: 0.1em
+                overflow: hidden
+        .Biography
+            .contenedor
+                flex-direction: column
+                .text
+                    width: 100%
+                .video
+                    width: 100%
+
+@media screen and (max-width: 600px)
+    header
+        .menu
+            justify-content: center
+            .logo-menu
+                display: none
+
+@media screen and (max-width: 500px)
+    .main
+        .logo-header
+            .texto
+                .titulo
+                    font-size: 1em
+                .profesion
+                    font-size: 1.5em

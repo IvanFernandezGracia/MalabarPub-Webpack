@@ -1,0 +1,47 @@
+.nav
+    position: fixed
+    bottom: 0
+    width: 100%
+    height: 10vh
+    background-color: $colorPrimarioNav
+    display: flex
+    overflow-x: visible
+    overflow-y: visible
+    border-radius: 2em 2em 0 0
+    filter: url("#goo")
+    .nav__link
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        flex-grow: 1
+        min-width: 50px
+        overflow-x: visible
+        overflow-y: visible
+        white-space: nowrap
+        font-family: sans-serif
+        font-size: 13px
+        color: $colorSecundarioNavInactive
+        text-decoration: none
+        -webkit-tap-highlight-color: transparent
+        transition: background-color 0.5s ease-in-out
+        .nav__icon
+            font-size: 1.8em
+    .nav__link--active
+        color: $colorSecundarioNav
+        transform: translateY(-10%)
+        transition: transform 0.5s cubic-bezier(.42,0,1,1)
+        .nav__icon
+            font-size: 1.8em
+    .nav-indicator
+        width: 15vh
+        height: 15vh
+        border-radius: 50%
+        background-color: $colorPrimarioNav
+        position: absolute
+        top: -2vh
+        left: 0px
+        z-index: -1
+        transition: left 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+#filter-svg
+    display: none

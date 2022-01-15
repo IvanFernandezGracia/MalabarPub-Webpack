@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Pestaña -->
+    <title>MalabarPub</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <!-- <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css"> -->
+    <!-- Icons -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" /> -->
+    <!-- Bootstrap 5 -->
+    <!-- <link rel="stylesheet" type="text/css" href="libs/bootstrap/bootstrap.min.css" /> -->
+    <!-- My Styles -->
+    <!-- <link rel="stylesheet" type="text/css" href="styles.css" /> -->
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header></header>
+
+    <!-- Container Component-->
+    <main>
+      <!-- Carousel-->
+      <section class="carousel-home">
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./assets/img/carousel/c1.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/carousel/c2.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/carousel/c3.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Carta Category Main-->
+      <p class="my-element decorative-line">Carta</p>
+      <section class="category-main">
+        <div class="contenedor">
+          <div class="row justify-content-center">
+            <div class="col-6">
+              <div class="status-card">
+                <div class="profile-pic">
+                  <div class="bg-icon-category-main">
+                    <img src="./assets/icon/main-category/comida.png" alt="" />
+                  </div>
+                </div>
+                <p class="username">Comida</p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="status-card">
+                <div class="profile-pic">
+                  <div class="bg-icon-category-main">
+                    <img src="./assets/icon/main-category/martini.png" alt="" />
+                  </div>
+                </div>
+                <p class="username">Bar</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Social Buttom-->
+      <p class="my-element decorative-line">Siguenos!</p>
+      <section class="social-buttoms">
+        <div class="contenedor">
+          <div class="">
+            <ul>
+              <li>
+                <span class="social-icon social-facebook"
+                  ><i class="fab fa-facebook"></i
+                ></span>
+              </li>
+              <li>
+                <span class="social-icon social-instagram"
+                  ><i class="fab fa-instagram"></i
+                ></span>
+              </li>
+              <li>
+                <span class="social-icon social-whatsapp"
+                  ><i class="fab fa-whatsapp"></i
+                ></span>
+              </li>
+              <li>
+                <div class="contenedor-load">
+                  <div class="progress circular"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- Ubicacion-->
+      <p class="my-element decorative-line">Ubicacion</p>
+      <section class="ubicacion-mapa">
+        <div class="contenedor">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1528.163537725983!2d-70.73296560365736!3d-34.17151699062336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x966343406b531c41%3A0x6dfc5d9a07f49bd3!2sPub%20Malabar!5e0!3m2!1ses!2scl!4v1635966842237!5m2!1ses!2scl"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <!-- Folder -->
+    <folder></folder>
+
+    <!-- Bottom Bar -->
+    <section id="bottomNav"></section>
+
+    <!-- efecto envolvente -->
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="filter-svg">
+      <defs>
+        <filter id="goo">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+          <feColorMatrix
+            in="blur"
+            mode="matrix"
+            values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7"
+            result="goo"
+          />
+          <feBlend in="SourceGraphic" in2="goo" />
+        </filter>
+      </defs>
+    </svg>
+
+    <!-- Libs Files JavaScript -->
+    <!-- <script src="libs/bootstrap/bootstrap.min.js"></script> -->
+    <!-- <script src="libs/jquery/jquery-3.6.0.js"></script> -->
+    <!-- <script src="libs/ajax/ajax-utils.js"></script> -->
+
+    <!-- Main Files JavaScript -->
+    <!-- <script type="module" src="js/index.js"></script> -->
+  </body>
+</html>
+
+<section class="main-content">
+  <div class="container">
+    <h1 class="text-center text-uppercase">Food Order Card</h1>
+    <br />
+    <br />
+    <div class="row">
+      <div class="col-sm-6 col-md-6 col-lg-4">
+        <div class="food-card">
+          <div class="food-card_img">
+            <img src="https://i.imgur.com/eFWRUuR.jpg" alt="" />
+            <a href="#!"><i class="far fa-heart"></i></a>
+          </div>
+          <div class="food-card_content">
+            <div class="food-card_title-section">
+              <a href="#!" class="food-card_title"
+                >Double Cheese Potato Burger</a
+              >
+              <a href="#!" class="food-card_author">Burger</a>
+            </div>
+            <div class="food-card_bottom-section">
+              <div class="space-between">
+                <div><span class="fa fa-fire"></span> 220 - 280 Kcal</div>
+                <div class="pull-right">
+                  <span class="badge badge-success">Veg</span>
+                </div>
+              </div>
+              <hr />
+              <div class="space-between">
+                <div class="food-card_price">
+                  <span>5.99$</span>
+                </div>
+                <div class="food-card_order-count">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <button
+                        class="btn btn-outline-secondary minus-btn"
+                        type="button"
+                        id="button-addon1"
+                      >
+                        <i class="fa fa-minus"></i>
+                      </button>
+                    </div>
+                    <input
+                      type="text"
+                      class="form-control input-manulator"
+                      placeholder=""
+                      aria-label="Example text with button addon"
+                      aria-describedby="button-addon1"
+                      value="0"
+                    />
+                    <div class="input-group-append">
+                      <button
+                        class="btn btn-outline-secondary add-btn"
+                        type="button"
+                        id="button-addon1"
+                      >
+                        <i class="fa fa-plus"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-6">
+        <div class="food-card food-card--vertical">
+          <div class="food-card_img">
+            <img src="https://i.imgur.com/eFWRUuR.jpg" alt="" />
+            <a href="#!"><i class="fa fa-heart"></i></a>
+          </div>
+          <div class="food-card_content">
+            <div class="food-card_title-section">
+              <a href="#!" class="food-card_title"
+                >Double Cheese Potato Burger</a
+              >
+              <a href="#!" class="food-card_author">Burger</a>
+            </div>
+            <div class="food-card_bottom-section">
+              <div class="space-between">
+                <div><span class="fa fa-fire"></span> 220 - 280 Kcal</div>
+                <div class="pull-right">
+                  <span class="badge badge-success">Veg</span>
+                </div>
+              </div>
+              <hr />
+              <div class="space-between">
+                <div class="food-card_price">
+                  <span>5.99$</span>
+                </div>
+                <div class="food-card_order-count">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <button
+                        class="btn btn-outline-secondary minus-btn"
+                        type="button"
+                        id="button-addon1"
+                      >
+                        <i class="fa fa-minus"></i>
+                      </button>
+                    </div>
+                    <input
+                      type="text"
+                      class="form-control input-manulator"
+                      placeholder=""
+                      aria-label="Example text with button addon"
+                      aria-describedby="button-addon1"
+                      value="0"
+                    />
+                    <div class="input-group-append">
+                      <button
+                        class="btn btn-outline-secondary add-btn"
+                        type="button"
+                        id="button-addon1"
+                      >
+                        <i class="fa fa-plus"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,152 @@
+
+// // /**
+// //   ----------------------------------------
+// //   animation fluor texto PULSOS
+// //   ----------------------------------------
+// //  /
+
+// @keyframes pulsate
+//     100%
+//         text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #F50073, 0 0 80px #F50073, 0 0 90px #F50073, 0 0 100px #F50073, 0 0 150px #F50073
+//     0%
+//         text-shadow: 0 0 4px #fff, 0 0 10px #fff, 0 0 18px #fff, 0 0 38px #F50073, 0 0 73px #F50073, 0 0 80px #F50073, 0 0 94px #F50073, 0 0 140px #F50073
+
+// // /**
+// //   ----------------------------------------
+// //   animation Titulos ZOOM focus-in-expand-fwd
+// //   ----------------------------------------
+// //  /
+
+// .focus-in-expand-fwd
+//     -webkit-animation: focus-in-expand-fwd 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+//     animation: focus-in-expand-fwd 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both
+
+// @-webkit-keyframes focus-in-expand-fwd
+//   0% 
+//     letter-spacing: -0.5em
+//     -webkit-transform: translateZ(-800px)
+//     transform: translateZ(-800px)
+//     -webkit-filter: blur(12px)
+//     filter: blur(12px)
+//     opacity: 0
+//   100% 
+//     -webkit-transform: translateZ(0)
+//     transform: translateZ(0)
+//     -webkit-filter: blur(0)
+//     filter: blur(0)
+//     opacity: 1
+
+// @keyframes focus-in-expand-fwd
+//     0%
+//         letter-spacing: -0.5em
+//         -webkit-transform: translateZ(-800px)
+//         transform: translateZ(-800px)
+//         -webkit-filter: blur(12px)
+//         filter: blur(12px)
+//         opacity: 0
+//     100%
+//         -webkit-transform: translateZ(0)
+//         transform: translateZ(0)
+//         -webkit-filter: blur(0)
+//         filter: blur(0)
+//         opacity: 1
+
+// .zoomIn
+//     -webkit-animation-name: zoomIn
+//     animation-name: zoomIn
+//     -webkit-animation-duration: 1s
+//     animation-duration: 1s
+//     -webkit-animation-fill-mode: both
+//     animation-fill-mode: both
+
+// @-webkit-keyframes zoomIn
+//   0%
+//     opacity: 0
+//     -webkit-transform: scale3d(.3, .3, .3)
+//     transform: scale3d(.3, .3, .3)
+//   50%
+//     opacity: 1
+
+// @keyframes zoomIn
+//     0%
+//         opacity: 0
+//         -webkit-transform: scale3d(.3, .3, .3)
+//         transform: scale3d(.3, .3, .3)
+//     50%
+//         opacity: 1
+
+// /**
+//   ----------------------------------------
+//   animation WRITEN CODE
+//   ----------------------------------------
+//  /
+
+.main
+    .Biography
+        .text
+            .body-type
+                .type
+                    color: #0000
+                    background: linear-gradient(-90deg, #F50073 5px, #0000 0) 10px 0, linear-gradient(#F50073 0 0) 0 0
+                    background-size: calc(var(--n)*1ch) 200%
+                    -webkit-background-clip: padding-box, text
+                    background-repeat: no-repeat
+                    animation: bb .1s infinite steps(1), ttt calc(var(--n)*.05s) steps(var(--n)) forwards
+
+@keyframes ttt
+    from
+        background-size: 0 200%
+
+@keyframes bb
+    50%
+        background-position: 0 -100%, 0 0
+
+// // /**
+// //   ----------------------------------------
+// //   animation vibrate-1
+// //   ----------------------------------------
+// //  /
+
+// .vibrate-1
+//     -webkit-animation: vibrate-1 0.3s linear infinite both
+//     animation: vibrate-1 0.3s linear infinite both
+
+// @-webkit-keyframes vibrate-1
+//   0%
+//     -webkit-transform: translate(0)
+//     transform: translate(0)
+//   20%
+//     -webkit-transform: translate(-2px, 2px)
+//     transform: translate(-2px, 2px)
+//   40%
+//     -webkit-transform: translate(-2px, -2px)
+//     transform: translate(-2px, -2px)
+//   60%
+//     -webkit-transform: translate(2px, 2px)
+//     transform: translate(2px, 2px)
+//   80%
+//     -webkit-transform: translate(2px, -2px)
+//     transform: translate(2px, -2px)
+//   100%
+//     -webkit-transform: translate(0)
+//     transform: translate(0)
+
+// @keyframes vibrate-1
+//     0%
+//         -webkit-transform: translate(0)
+//         transform: translate(0)
+//     20%
+//         -webkit-transform: translate(-2px, 2px)
+//         transform: translate(-2px, 2px)
+//     40%
+//         -webkit-transform: translate(-2px, -2px)
+//         transform: translate(-2px, -2px)
+//     60%
+//         -webkit-transform: translate(2px, 2px)
+//         transform: translate(2px, 2px)
+//     80%
+//         -webkit-transform: translate(2px, -2px)
+//         transform: translate(2px, -2px)
+//     100%
+//         -webkit-transform: translate(0)
+//         transform: translate(0)

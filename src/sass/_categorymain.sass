@@ -1,0 +1,57 @@
+.category-main
+    background-color: rgba(0, 0, 0, 1)
+    .contenedor
+        .status-card
+            flex: 0 0 auto
+            height: 20vh
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: center
+            margin: auto
+            margin-top: 0vh
+            .profile-pic
+                width: 70px
+                height: 70px
+                border-radius: 50%
+                overflow: hidden
+                padding: 3px
+                background: linear-gradient(45deg, rgb(243, 243, 243), rgb(0, 0, 0) 90%)
+                display: flex
+                justify-content: center
+                align-items: center
+                animation: rotation 3s infinite ease-out
+                .bg-icon-category-main
+                    height: 95%
+                    width: 95%
+                    background-color: black
+                    border-radius: 50%
+                    justify-content: center
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    animation: rotation-negative 3s infinite ease-out
+                    img
+                        width: 60%
+                        height: 60%
+                        object-fit: cover
+            .username
+                width: 100%
+                overflow: hidden
+                text-align: center
+                font-size: 1em
+                margin-top: 0.5vh
+                margin-bottom: 0
+                color: rgba(255, 255, 255, 1)
+                font-family: 'Dancing Script'
+                letter-spacing: 0.1em
+@keyframes rotation
+    0%
+        transform: rotate(0deg)
+    100%
+        transform: rotate(360deg)
+@keyframes rotation-negative
+    0%
+        transform: rotate(360deg)
+    100%
+        transform: rotate(0deg)

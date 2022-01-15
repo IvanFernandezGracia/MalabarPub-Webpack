@@ -1,0 +1,17 @@
+{
+    "presets": [
+        "@babel/preset-env", // Compila ES5 y ES6
+        "@babel/preset-react", // Compila JSX y sintaxis de React
+        "minify" // 
+    ],
+    "plugins": [
+        "@babel/plugin-transform-runtime"
+
+    ]
+}
+// {
+//     "presets": [
+//         "@babel/preset-env",
+//         "minify"
+//     ]
+// }

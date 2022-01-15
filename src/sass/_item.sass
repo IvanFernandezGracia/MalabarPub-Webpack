@@ -1,0 +1,72 @@
+.food-card
+    background: #fff
+    border-radius: 5%
+    overflow: hidden
+    -webkit-box-shadow: 0 2x 10px rgba(0, 0, 0, 0.562)
+    box-shadow: 0 2x 10px rgba(0, 0, 0, 0.562)
+    border: solid black 2px
+    -webkit-transition: 0.1s
+    transition: 0.1s
+    height: 20vh
+    display: -webkit-box
+    display: -ms-flexbox
+    display: flex
+    position: relative
+    width: 90%
+    margin: 0 auto 2vh auto
+    
+    &:hover
+        -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1)
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1)
+    .food-card_img
+        display: block
+        position: relative
+        max-width: 30%
+        img
+            height: 100%
+            -o-object-fit: cover
+            object-fit: cover
+    .food-card_content
+        padding: 0.7em
+        .food-card_title-section
+            // height: 25%
+            // overflow: hidden
+            margin-bottom: 0.5vh
+            .food-card_title
+                font-size: 2vh
+                color: #333
+                display: block
+                line-height: 1.3
+                margin-bottom: 0.1vh
+                display: -webkit-box
+                -webkit-line-clamp: 2
+                -webkit-box-orient: vertical
+                overflow: hidden
+                text-overflow: ellipsis
+                text-decoration: none
+                font-weight: bolder
+        .food-card_bottom-section
+            // height: 75%
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            .space-between
+                display: -webkit-box
+                display: -ms-flexbox
+                display: flex
+                -webkit-box-pack: justify
+                -ms-flex-pack: justify
+                justify-content: space-between
+                .descripcion-corta
+                    font-size: 1vh
+                    font-weight: 500
+                    color: #000000
+                    text-align: justify
+                    line-height: 1.1
+                    font-style: italic
+                .food-card_price
+                    font-size: 1vh
+                    font-weight: 500
+                    color: #F47A00
+            hr
+                margin: 1vh  1vh  1vh 0
